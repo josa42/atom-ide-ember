@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emberwatch/ember-language-server": "^0.1.0",
-    "atom-languageclient": "git://github.com/atom/atom-languageclient.git"
+    "atom-languageclient": "git://github.com/josa42/atom-languageclient.git#6328f1e33ffc8f13bb8be6afb9f2985d77260b1e"
   },
   "consumedServices": {
     "linter-indie": {
