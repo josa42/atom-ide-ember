@@ -1,0 +1,59 @@
+{
+  "name": "languageserver-ember",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Provide Ember.js support via the Eclipse Ember Language Server",
+  "repository": "https://github.com/josa42/atom-languageserver-ember",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.17.0"
+  },
+  "dependencies": {
+    "@emberwatch/ember-language-server": "^0.1.0",
+    "atom-languageclient": "git://github.com/atom/atom-languageclient.git"
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "nuclide-datatip.provider": {
+      "versions": {
+        "0.0.0": "consumeDatatip"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "nuclide-outline-view": {
+      "versions": {
+        "0.0.0": "provideOutlines"
+      }
+    },
+    "nuclide-definition-provider": {
+      "versions": {
+        "0.0.0": "provideDefinitions"
+      }
+    },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "provideHyperclick"
+      }
+    },
+    "nuclide-find-references.provider": {
+      "versions": {
+        "0.0.0": "provideFindReferences"
+      }
+    }
+  }
+}

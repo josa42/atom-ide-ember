@@ -1,0 +1,11 @@
+{
+  "clientLogging": {
+    "type": "boolean",
+    "default": false
+  },
+
+  "serverLogging": {
+    "type": "boolean",
+    "default": false
+  }
+}
