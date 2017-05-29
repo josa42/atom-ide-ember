@@ -9,8 +9,8 @@
     "atom": ">=1.17.0"
   },
   "dependencies": {
-    "@emberwatch/ember-language-server": "^0.1.0",
-    "atom-languageclient": "git://github.com/josa42/atom-languageclient.git#6328f1e33ffc8f13bb8be6afb9f2985d77260b1e"
+    "@emberwatch/ember-language-server": "git://github.com/josa42/ember-language-server#d1486e92d1682cedd5cde3628ac762e65a30088e",
+    "atom-languageclient": "git://github.com/atom/atom-languageclient.git#6d30ebd4e8e400cee2839925cb86eaa14dbe5416"
   },
   "consumedServices": {
     "linter-indie": {
@@ -55,5 +55,16 @@
         "0.0.0": "provideFindReferences"
       }
     }
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "test": "eslint ."
   }
 }
