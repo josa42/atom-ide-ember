@@ -5,6 +5,19 @@
   "description": "Provide Ember.js support via the Ember Language Server",
   "repository": "https://github.com/josa42/atom-languageserver-ember",
   "license": "MIT",
+  "author": "Josa Gesell <josa@gesell.me>",
+  "contributors": [
+    "Josa Gesell <josa@gesell.me>"
+  ],
+  "keywords": [
+    "ember",
+    "ember.js",
+    "htmlbars",
+    "languageserver"
+  ],
+  "bugs": {
+    "url" : "https://github.com/josa42/atom-languageserver-ember/issues"
+  },
   "engines": {
     "atom": ">=1.17.0"
   },
