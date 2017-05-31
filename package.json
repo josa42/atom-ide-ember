@@ -1,7 +1,7 @@
 {
   "name": "languageserver-ember",
   "main": "./lib/main",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Provide Ember.js support via the Ember Language Server",
   "repository": "https://github.com/josa42/atom-languageserver-ember",
   "license": "MIT",
