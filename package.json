@@ -1,7 +1,7 @@
 {
   "name": "languageserver-ember",
   "main": "./lib/main",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Provide Ember.js support via the Ember Language Server",
   "repository": "https://github.com/josa42/atom-languageserver-ember",
   "license": "MIT",
@@ -16,16 +16,16 @@
     "languageserver"
   ],
   "bugs": {
-    "url" : "https://github.com/josa42/atom-languageserver-ember/issues"
+    "url": "https://github.com/josa42/atom-languageserver-ember/issues"
   },
   "engines": {
     "atom": ">=1.17.0"
   },
   "activationHooks": [
-     "language-javascript:grammar-used",
-     "language-mustache:grammar-used",
-     "language-ember-htmlbars:grammar-used"
-   ],
+    "language-javascript:grammar-used",
+    "language-mustache:grammar-used",
+    "language-ember-htmlbars:grammar-used"
+  ],
   "dependencies": {
     "@emberwatch/ember-language-server": "git://github.com/josa42/ember-language-server#7dad67655023b0935f7133adc485ccef57565938",
     "atom-languageclient": "~0.1.1"
