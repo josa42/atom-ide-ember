@@ -1,5 +1,10 @@
 # LanguageServer-Ember package
 
+[![Build Status](https://img.shields.io/travis/josa42/atom-languageserver-ember.svg?style=flat-square)](https://travis-ci.org/josa42/atom-languageserver-ember)
+[![Plugin installs!](https://img.shields.io/apm/dm/languageserver-ember.svg?style=flat-square)](https://atom.io/packages/languageserver-ember)
+[![Package version!](https://img.shields.io/apm/v/languageserver-ember.svg?style=flat-square)](https://atom.io/packages/languageserver-ember)
+[![Dependencies!](https://img.shields.io/david/josa42/atom-languageserver-ember.svg?style=flat-square)](https://david-dm.org/josa42/atom-languageserver-ember)
+
 This is the [Atom package](https://atom.io/packages/languageserver-ember) to use the [Ember Language Server](https://github.com/emberwatch/ember-language-server).
 
 **🚧 Work in Progress**
