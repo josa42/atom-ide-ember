@@ -13,7 +13,8 @@
     "ember",
     "ember.js",
     "htmlbars",
-    "languageserver"
+    "languageserver",
+    "linter"
   ],
   "bugs": {
     "url": "https://github.com/josa42/atom-languageserver-ember/issues"

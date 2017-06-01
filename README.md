@@ -2,7 +2,7 @@
 
 This is the [Atom package](https://atom.io/packages/languageserver-ember) to use the [Ember Language Server](https://github.com/emberwatch/ember-language-server).
 
-**Work in Progress**
+**🚧 Work in Progress**
 
 ## Installtion
 
