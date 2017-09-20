@@ -20,7 +20,7 @@
     "url": "https://github.com/josa42/atom-languageserver-ember/issues"
   },
   "engines": {
-    "atom": ">=1.17.0"
+    "atom": ">=1.20.0"
   },
   "activationHooks": [
     "language-javascript:grammar-used",
