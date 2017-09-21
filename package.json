@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.4.1",
   "description": "Provide Ember.js support via the Ember Language Server",
-  "repository": "https://github.com/josa42/atom-languageserver-ember",
+  "repository": "https://github.com/josa42/atom-ide-ember",
   "license": "MIT",
   "author": "Josa Gesell <josa@gesell.me>",
   "contributors": [
@@ -17,7 +17,7 @@
     "linter"
   ],
   "bugs": {
-    "url": "https://github.com/josa42/atom-languageserver-ember/issues"
+    "url": "https://github.com/josa42/atom-ide-ember/issues"
   },
   "engines": {
     "atom": ">=1.20.0"

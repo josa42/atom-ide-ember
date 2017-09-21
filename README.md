@@ -1,18 +1,18 @@
-# LanguageServer-Ember package
+# IDE Ember package
 
-[![Build Status](https://img.shields.io/travis/josa42/atom-languageserver-ember.svg?style=flat-square)](https://travis-ci.org/josa42/atom-languageserver-ember)
-[![Plugin installs!](https://img.shields.io/apm/dm/languageserver-ember.svg?style=flat-square)](https://atom.io/packages/languageserver-ember)
-[![Package version!](https://img.shields.io/apm/v/languageserver-ember.svg?style=flat-square)](https://atom.io/packages/languageserver-ember)
-[![Dependencies!](https://img.shields.io/david/josa42/atom-languageserver-ember.svg?style=flat-square)](https://david-dm.org/josa42/atom-languageserver-ember)
+[![Build Status](https://img.shields.io/travis/josa42/atom-ide-ember.svg?style=flat-square)](https://travis-ci.org/josa42/atom-ide-ember)
+[![Plugin installs!](https://img.shields.io/apm/dm/ide-ember.svg?style=flat-square)](https://atom.io/packages/ide-ember)
+[![Package version!](https://img.shields.io/apm/v/ide-ember.svg?style=flat-square)](https://atom.io/packages/ide-ember)
+[![Dependencies!](https://img.shields.io/david/josa42/atom-ide-ember.svg?style=flat-square)](https://david-dm.org/josa42/atom-ide-ember)
 
-This is the [Atom package](https://atom.io/packages/languageserver-ember) to use the [Ember Language Server](https://github.com/emberwatch/ember-language-server).
+This is the [Atom package](https://atom.io/packages/ide-ember) to use the [Ember Language Server](https://github.com/emberwatch/ember-language-server).
 
 **🚧 Work in Progress**
 
 ## Installtion
 
 ```
-$ apm install languageserver-ember
+$ apm install ide-ember
 ```
 
 ## Features
@@ -22,13 +22,13 @@ $ apm install languageserver-ember
   - Helpers
 
 
-![](https://raw.githubusercontent.com/josa42/atom-languageserver-ember/master/.github/images/template-completion-v3.gif)
+![](https://raw.githubusercontent.com/josa42/atom-ide-ember/master/.github/images/template-completion-v3.gif)
 
 - **Template Linting**
   - [ember-template-lint](https://github.com/rwjblue/ember-template-lint) (if
     a `.template-lintrc.js` is in the project)
   
-![](https://raw.githubusercontent.com/josa42/atom-languageserver-ember/master/.github/images/template-linting.gif)
+![](https://raw.githubusercontent.com/josa42/atom-ide-ember/master/.github/images/template-linting.gif)
   
 **Definition providers (Go To Definition, Peek Definition)**
   - Work in progress
