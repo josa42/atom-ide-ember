@@ -7,9 +7,7 @@
 
 This is the [Atom package](https://atom.io/packages/ide-ember) to use the [Ember Language Server](https://github.com/emberwatch/ember-language-server).
 
-**🚧 Work in Progress**
-
-## Installtion
+## Installation
 
 ```
 $ apm install ide-ember
